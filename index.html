@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Huy Trinh — portfolio: kỹ năng, dự án, kinh nghiệm và chứng chỉ. Thiết kế tối giản, hiện đại."
+    />
+    <title>Huy Trinh — Portfolio</title>
+    <meta property="og:title" content="Huy Trinh — Portfolio" />
+    <meta property="og:description" content="Portfolio cá nhân: kỹ năng, dự án, kinh nghiệm và chứng chỉ." />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=630&fit=crop&q=80&fm=webp"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+
+    <header class="site-top">
+      <div class="site-top__inner">
+        <a class="logo" href="#">Huy Trinh</a>
+        <nav class="nav" aria-label="Điều hướng chính">
+          <a href="#projects">Dự án</a>
+          <a href="#about">Giới thiệu</a>
+          <a href="#skills">Kỹ năng</a>
+          <a href="#experience">Kinh nghiệm</a>
+          <a href="#certifications">Chứng chỉ</a>
+          <a href="#contact">Liên hệ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap section" id="top" aria-labelledby="hero-heading">
+        <div class="hero__layout">
+          <figure class="hero__portrait" tabindex="0">
+            <div class="hero__portrait-inner">
+              <img
+                class="hero__portrait-img"
+                src="_MG_1987.jpg"
+                alt="Chân dung Huy Trinh"
+                width="1200"
+                height="1600"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+          </figure>
+          <div class="hero__content">
+            <p class="hero__brand">Huy Trinh</p>
+            <h1 class="hero__title" id="hero-heading">
+              Xây sản phẩm web rõ ràng, hiệu năng — từ giao diện đến hạ tầng.
+            </h1>
+            <div class="hero__meta">
+              <span class="hero__role">Kỹ sư phần mềm / Full-stack</span>
+            </div>
+            <div class="hero__cta hero__cta--subtle">
+              <a class="hero__link" href="mailto:hello@huytrinh.dev">Email</a>
+              <span class="hero__dot" aria-hidden="true">·</span>
+              <a class="hero__link" href="#" aria-label="Thêm file CV PDF vào dự án">CV (PDF)</a>
+              <span class="hero__dot" aria-hidden="true">·</span>
+              <a class="hero__link" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <span class="hero__dot" aria-hidden="true">·</span>
+              <a
+                class="hero__link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects wrap section projects--tight reveal" id="projects" aria-labelledby="projects-heading">
+        <h2 class="visually-hidden" id="projects-heading">Dự án tiêu biểu</h2>
+        <div class="project-grid">
+          <a class="project-card" href="#">
+            <div class="project-card__frame">
+              <img
+                class="project-card__img"
+                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&q=80&fm=webp"
+                alt="Dashboard dự án Commerce"
+                width="800"
+                height="600"
+                loading="eager"
+              />
+            </div>
+            <div class="project-card__cap">
+              <div class="project-card__cap-row">
+                <span class="project-card__name">Commerce dashboard</span>
+                <span class="project-card__tag">Web app / UI</span>
+              </div>
+              <p class="project-card__desc">Dashboard quản trị đơn hàng, báo cáo realtime — React, API REST.</p>
+            </div>
+          </a>
+          <a class="project-card" href="#">
+            <div class="project-card__frame">
+              <img
+                class="project-card__img"
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80&fm=webp"
+                alt="Ứng dụng API nội bộ"
+                width="800"
+                height="600"
+                loading="eager"
+              />
+            </div>
+            <div class="project-card__cap">
+              <div class="project-card__cap-row">
+                <span class="project-card__name">Internal tools API</span>
+                <span class="project-card__tag">Backend / DevOps</span>
+              </div>
+              <p class="project-card__desc">Bộ API nội bộ, xác thực JWT, triển khai Docker — giảm thời gian xử lý ticket.</p>
+            </div>
+          </a>
+          <a class="project-card" href="#">
+            <div class="project-card__frame">
+              <img
+                class="project-card__img"
+                src="https://images.unsplash.com/photo-1604076913837-52ab5629fba9?w=800&q=80&fm=webp"
+                alt="Landing marketing"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card__cap">
+              <div class="project-card__cap-row">
+                <span class="project-card__name">Marketing landing</span>
+                <span class="project-card__tag">Frontend / Motion</span>
+              </div>
+              <p class="project-card__desc">Landing tối ưu LCP, animation nhẹ theo scroll — chuyển đổi cao hơn bản cũ.</p>
+            </div>
+          </a>
+          <a class="project-card" href="#">
+            <div class="project-card__frame">
+              <img
+                class="project-card__img"
+                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80&fm=webp"
+                alt="Design system"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-card__cap">
+              <div class="project-card__cap-row">
+                <span class="project-card__name">Design system kit</span>
+                <span class="project-card__tag">Design / Code</span>
+              </div>
+              <p class="project-card__desc">Token màu &amp; type, component React — đồng bộ design và code cho đội nhỏ.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="about wrap section reveal" id="about" aria-labelledby="about-heading">
+        <h2 class="section__head" id="about-heading">Giới thiệu</h2>
+        <div class="about__grid">
+          <p class="about__lead">
+            Tôi kết hợp tư duy sản phẩm với kỹ thuật thực thi — từ prototype đến triển khai ổn định.
+          </p>
+          <div>
+            <p class="about__body">
+              Tôi thích làm việc với các đội đa chức năng, chuẩn hóa component, kiểm thử và hiệu năng.
+              Mục tiêu của tôi là code dễ đọc, hệ thống dễ mở rộng và giao diện tinh gọn. Bạn có thể
+              chỉnh sửa nội dung trực tiếp trong file index.html.
+            </p>
+            <div class="about__actions">
+              <a class="btn-pill btn-pill--dark" href="#contact">Đọc thêm</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-strip" aria-hidden="true">
+          <div class="card-strip__item card-strip__item--orange">
+            <span class="card-strip__label">Trọng tâm</span>
+            <span class="card-strip__big">TypeScript · React · Node</span>
+          </div>
+          <div class="card-strip__item card-strip__item--dark">
+            <span class="card-strip__label">Chữ</span>
+            <span class="card-strip__big">Inter <span>Regular</span></span>
+          </div>
+          <div class="card-strip__item card-strip__item--grey">
+            <span class="card-strip__label">Nguyên tắc</span>
+            <span class="card-strip__big">Ít nhiễu, nhiều tín hiệu.</span>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section__rule wrap" />
+
+      <section class="skills wrap section reveal" id="skills" aria-labelledby="skills-heading">
+        <h2 class="section__head" id="skills-heading">Kỹ năng</h2>
+        <div class="skills__cols">
+          <div>
+            <h3 class="skills__group-title">Ngôn ngữ</h3>
+            <ul class="skills__list">
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>HTML / CSS</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="skills__group-title">Framework</h3>
+            <ul class="skills__list">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Next.js</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="skills__group-title">Công cụ</h3>
+            <ul class="skills__list">
+              <li>Git</li>
+              <li>Docker</li>
+              <li>CI/CD</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="skills__group-title">Khác</h3>
+            <ul class="skills__list">
+              <li>Làm việc nhóm Agile</li>
+              <li>Viết kỹ thuật</li>
+              <li>Tiếng Anh</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience wrap section reveal" id="experience" aria-labelledby="experience-heading">
+        <h2 class="section__head" id="experience-heading">Kinh nghiệm làm việc</h2>
+        <div class="list-rows">
+          <article class="experience__block">
+            <div class="list-row">
+              <span class="list-row__title">Product Studio X</span>
+              <span class="list-row__meta">Full-stack · Nền tảng web · Remote</span>
+              <span class="list-row__year">2024 — Nay</span>
+            </div>
+            <ul class="experience__bullets">
+              <li>Thiết kế module thanh toán, giảm lỗi giao dịch theo dõi từ log.</li>
+              <li>Phối hợp product/design để ra mắt tính năng theo sprint 2 tuần.</li>
+            </ul>
+          </article>
+          <article class="experience__block">
+            <div class="list-row">
+              <span class="list-row__title">Agency North</span>
+              <span class="list-row__meta">Frontend · Design system · Hybrid</span>
+              <span class="list-row__year">2022 — 2024</span>
+            </div>
+            <ul class="experience__bullets">
+              <li>Xây thư viện component dùng chung 4 dự án, rút ngắn thời gian lặp UI.</li>
+              <li>Tối ưu Lighthouse và bundle cho landing cao traffic.</li>
+            </ul>
+          </article>
+          <article class="experience__block">
+            <div class="list-row">
+              <span class="list-row__title">Startup Lab</span>
+              <span class="list-row__meta">Intern kỹ sư phần mềm · API &amp; dashboard</span>
+              <span class="list-row__year">2021 — 2022</span>
+            </div>
+            <ul class="experience__bullets">
+              <li>Hỗ trợ API CRUD và biểu đồ nội bộ phục vụ đội vận hành.</li>
+              <li>Viết tài liệu endpoint cho đồng đội onboarding nhanh hơn.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="culture wrap section reveal" aria-label="Ảnh minh họa">
+        <div class="culture__grid">
+          <div class="culture__cell">
+            <img
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80&fm=webp"
+              alt="Làm việc nhóm"
+              width="800"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="culture__cell">
+            <img
+              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80&fm=webp"
+              alt="Workshop"
+              width="800"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="culture__cell">
+            <img
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80&fm=webp"
+              alt="Văn phòng"
+              width="800"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="certs wrap section reveal" id="certifications" aria-labelledby="certs-heading">
+        <h2 class="section__head" id="certs-heading">Chứng chỉ</h2>
+        <div class="certs__grid">
+          <p class="certs__intro">
+            Mỗi dòng có thể trỏ tới trang xác minh của nhà cấp (thay URL mẫu bằng link thật khi bạn có credential).
+          </p>
+          <div>
+            <div class="certs__block">
+              <h3 class="certs__org">Nhà cung cấp cloud</h3>
+              <a class="certs__item" href="https://www.credly.com/" target="_blank" rel="noopener noreferrer">
+                <span class="certs__item-name">Associate / Fundamentals</span>
+                <span class="certs__item-project">2024 · Xác minh</span>
+              </a>
+              <a class="certs__item" href="https://www.credly.com/" target="_blank" rel="noopener noreferrer">
+                <span class="certs__item-name">Security essentials</span>
+                <span class="certs__item-project">2023 · Xác minh</span>
+              </a>
+            </div>
+            <div class="certs__block">
+              <h3 class="certs__org">Chuyên môn</h3>
+              <a class="certs__item" href="#" aria-label="Link xác minh chứng chỉ (cập nhật sau)">
+                <span class="certs__item-name">Agile / Scrum fundamentals</span>
+                <span class="certs__item-project">2023</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="latest wrap section reveal" id="latest" aria-labelledby="latest-heading">
+        <div class="latest__bar">
+          <h2 class="section__head" id="latest-heading">Mới nhất</h2>
+          <a class="btn-pill btn-pill--dark" href="#">Xem tất cả</a>
+        </div>
+        <div class="latest__grid">
+          <a class="news-card" href="#">
+            <div class="news-card__thumb">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80&fm=webp"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <div class="news-card__label">Ghi chú · 2026</div>
+              <h3 class="news-card__title">Tối ưu bundle cho trang portfolio tĩnh</h3>
+            </div>
+          </a>
+          <a class="news-card" href="#">
+            <div class="news-card__thumb">
+              <img
+                src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&q=80&fm=webp"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <div class="news-card__label">Case study · 2025</div>
+              <h3 class="news-card__title">Thiết kế design token cho đội nhỏ</h3>
+            </div>
+          </a>
+          <a class="news-card" href="#">
+            <div class="news-card__thumb">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&q=80&fm=webp"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <div class="news-card__label">Mã nguồn mở · 2025</div>
+              <h3 class="news-card__title">CLI tiện ích cho workflow hằng ngày</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section" id="contact">
+      <div class="wrap">
+        <h2 class="footer__cta-title">Làm việc cùng nhau</h2>
+        <p class="footer__cta-sub">
+          Rất vui được trao đổi về sản phẩm, freelance hoặc vị trí full-time phù hợp.
+        </p>
+        <div class="footer__btn">
+          <a class="btn-pill btn-pill--dark" href="mailto:hello@huytrinh.dev">Liên hệ</a>
+        </div>
+        <div class="footer__cols">
+          <div>
+            <h3 class="footer__col-title">Địa điểm</h3>
+            <p>Việt Nam · Remote friendly</p>
+          </div>
+          <div>
+            <h3 class="footer__col-title">Email</h3>
+            <p><a href="mailto:hello@huytrinh.dev">hello@huytrinh.dev</a></p>
+          </div>
+          <div>
+            <h3 class="footer__col-title">Mạng xã hội</h3>
+            <div class="footer__social">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="y"></span> Huy Trinh</span>
+        <span>
+          <a href="#">Quyền riêng tư</a>
+          ·
+          <a href="#">Điều khoản</a>
+        </span>
+      </div>
+    </footer>
+    <script src="main.js" defer></script>
+  </body>
+</html>

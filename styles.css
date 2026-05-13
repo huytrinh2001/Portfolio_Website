@@ -699,6 +699,37 @@ a:hover {
 
 .skills__list li {
   padding: 0.15rem 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.skills__list li:hover {
+  color: var(--accent);
+  transform: translateX(5px);
+}
+
+.list-row {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr auto;
+  gap: 1rem 2rem;
+  align-items: baseline;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.8125rem;
+  transition: background 0.2s ease;
+}
+
+.list-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.experience__bullets li {
+  margin: 0.2rem 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.experience__bullets li:hover {
+  color: var(--accent);
+  transform: translateX(5px);
 }
 
 /* —— Experience (brands list) —— */
